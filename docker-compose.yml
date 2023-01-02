@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  api:
+    tty: true
+    build:
+      context: ./api
+      dockerfile: Dockerfile.dev
+    container_name: webscraping-api
+    volumes:
+      - ./api:/app

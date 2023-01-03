@@ -14,6 +14,7 @@ func (c Convert) FixProductOrBrandeName(text string) string {
 
 	x("iphone", "iPhone")
 	x("pc", "PC")
+	x("tv", "TV")
 
 	return text
 }
